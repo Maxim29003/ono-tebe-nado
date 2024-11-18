@@ -3,7 +3,6 @@
   padding: 92px 24px 96px 24px;
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-  font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 18px;
   align-items: center;
@@ -32,7 +31,7 @@
 
 .header__link{
   text-decoration: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000;
 }
 
 .header__link_active{
@@ -55,7 +54,7 @@
 .address a {
   letter-spacing: 1%;
   text-decoration: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000;
 }
 
 .header__address{
@@ -64,7 +63,75 @@
   justify-self: end;
 }
 
+.cover {
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  color: #fff;
+  text-transform: uppercase;
+}
 
+.overlay {
 
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 165px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 138px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0.6em;
+}
+
+.cover__description {
+  font-size: 22px;
+  font-weight: normal;
+  display: flex;
+  gap: 79px;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+  padding-bottom: 51px;
+  padding-left: 79px;
+
+}
+
+.cover__description-text{
+  line-height: 28px;
+  word-spacing: 23px;
+  flex-grow: 1;
+}
+
+.bet-button{
+  padding: 12px 32px 11px 31px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 

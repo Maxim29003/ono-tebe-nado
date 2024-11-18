@@ -139,6 +139,7 @@
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  white-space: nowrap;
 }
 
 .lots {
